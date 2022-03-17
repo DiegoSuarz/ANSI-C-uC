@@ -1,0 +1,7 @@
+18:19:05 **** Incremental Build of configuration Debug for project 02_PRIMER_PROGRAMA ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\02_PRIMER_PROGRAMA.o" "..\\src\\02_PRIMER_PROGRAMA.c" 
+gcc -o 02_PRIMER_PROGRAMA.exe "src\\02_PRIMER_PROGRAMA.o" 
+
+18:19:05 Build Finished. 0 errors, 0 warnings. (took 572ms)
+

@@ -1,0 +1,42 @@
+/*
+ ============================================================================
+ Name        : 01_VARIABLES.c
+ Author      : Diego Suarez
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+/*
+ * Tipos de variables numericos:
+ * int, float,double, long
+ *
+ * Tipos de varibles letras:
+ * char
+ *
+ * AMBITO DONDE SE DECLARAN LAS VARIABLES:
+ * VARIABLES GLOBALES: (SE DECLARAN FUERA DE CUALQUIER FUNCION)
+ * 		Se almacenan en la memoria RAM.
+ * 		Pueden ser usadas en cualquier parte del código
+ *
+ * VARIABLES LOCALES: (SE DECLARAN DENTRO DE UNA FUNCION)
+ * 		Se almacenan en al Stack (pila)
+ * 		Solo son accesibles dento de la función
+ *
+ *
+* 	DECLARACION DE VARIABLES:
+* 		<tipo de variable> <nombre de la variable> (opcional valor inicial)
+ * */
+
+int edad; //las variables globales si no se inicializan tienen el valor 0 por defecto
+
+int main(void) {
+
+	int numAlumnos = 56; //las variables locales si no se inicializan pueden tomar cualquier valor
+
+	system("PAUSE");
+	return EXIT_SUCCESS;
+}
