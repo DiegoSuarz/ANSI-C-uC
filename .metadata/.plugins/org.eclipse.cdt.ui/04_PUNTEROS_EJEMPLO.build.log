@@ -1,0 +1,7 @@
+20:02:29 **** Incremental Build of configuration Debug for project 04_PUNTEROS_EJEMPLO ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\04_PUNTEROS_EJEMPLO.o" "..\\src\\04_PUNTEROS_EJEMPLO.c" 
+gcc -o 04_PUNTEROS_EJEMPLO.exe "src\\04_PUNTEROS_EJEMPLO.o" 
+
+20:02:30 Build Finished. 0 errors, 0 warnings. (took 608ms)
+

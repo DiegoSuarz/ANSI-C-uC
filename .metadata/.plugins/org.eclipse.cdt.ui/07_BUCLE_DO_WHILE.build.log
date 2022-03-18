@@ -1,0 +1,6 @@
+21:45:16 **** Incremental Build of configuration Debug for project 07_BUCLE_DO_WHILE ****
+Info: Internal Builder is used for build
+gcc -o 07_BUCLE_DO_WHILE.exe "src\\07_BUCLE_DO_WHILE.o" 
+
+21:45:16 Build Finished. 0 errors, 0 warnings. (took 255ms)
+

@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : 04_PUNTEROS_EJEMPLO.c
+ Author      : Diego Suarez
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int edad;
+	int *ptr_edad;
+	printf("Ejemplo de punteros\n");
+	printf("Ingrese el valor de su edad\n");
+	scanf("%d",&edad);
+
+	system("pause");
+	return EXIT_SUCCESS;
+}

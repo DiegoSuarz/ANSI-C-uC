@@ -1,0 +1,34 @@
+/*
+ ============================================================================
+ Name        : 04_PUNTEROS_EJEMPLO.c
+ Author      : Diego Suarez
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int edad;
+	void *ptr; //puntero generico, que apunta a cualquier tipo de dato
+	ptr=&edad;
+
+
+	int *ptr_edad=&edad;  //asignacion del puntero, los punteros siempre apuntan a un tipo determinado de dato, en este caso un entero (int)
+	printf("Ejemplo de punteros\n");
+	printf("Ingrese el valor de su edad\n");
+
+	//scanf("%d",&edad);
+	//printf("Valor de edad->%d\n",*ptr_edad);
+
+	scanf("%d",ptr_edad);
+	printf("Valor de edad->%d\n",edad);
+
+	printf("Valor de edad(puntero generico):%d\n",((int*)*ptr));
+	system("pause");
+	return EXIT_SUCCESS;
+}

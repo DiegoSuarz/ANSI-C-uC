@@ -24,7 +24,7 @@
  * 		Pueden ser usadas en cualquier parte del código
  *
  * VARIABLES LOCALES: (SE DECLARAN DENTRO DE UNA FUNCION)
- * 		Se almacenan en al Stack (pila)
+ * 		Se almacenan en al Stack (pila), que es parte de la memoria Ram
  * 		Solo son accesibles dento de la función
  *
  *

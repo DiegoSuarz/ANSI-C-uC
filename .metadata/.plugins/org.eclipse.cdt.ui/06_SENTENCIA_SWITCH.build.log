@@ -1,0 +1,11 @@
+21:28:45 **** Incremental Build of configuration Debug for project 06_SENTENCIA_SWITCH ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\06_SENTENCIA_SWITCH.o" "..\\src\\06_SENTENCIA_SWITCH.c" 
+..\src\06_SENTENCIA_SWITCH.c: In function 'main':
+..\src\06_SENTENCIA_SWITCH.c:34:10: warning: format '%u' expects argument of type 'unsigned int *', but argument 2 has type 'uint8_t * {aka unsigned char *}' [-Wformat=]
+  scanf("%u",&selector);
+          ^
+gcc -o 06_SENTENCIA_SWITCH.exe "src\\06_SENTENCIA_SWITCH.o" 
+
+21:28:46 Build Finished. 0 errors, 1 warnings. (took 658ms)
+

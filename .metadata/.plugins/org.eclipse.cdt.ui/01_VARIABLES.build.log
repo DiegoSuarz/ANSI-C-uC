@@ -1,17 +1,1 @@
-19:12:43 **** Incremental Build of configuration Debug for project 01_VARIABLES ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\01_VARIABLES.o" "..\\src\\01_VARIABLES.c" 
-..\src\01_VARIABLES.c: In function 'main':
-..\src\01_VARIABLES.c:60:37: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
-  printf("Frecuencia de Oscilacion: %d\n",FOSC);
-                                     ^
-..\src\01_VARIABLES.c:44:6: warning: unused variable 'numAlumnos' [-Wunused-variable]
-  int numAlumnos = 56; //las variables locales si no se inicializan pueden tomar cualquier valor
-      ^~~~~~~~~~
-..\src\01_VARIABLES.c:43:12: warning: unused variable 'MESES' [-Wunused-variable]
-  const int MESES = 12; //se almacena en la memoria Flash (programa)
-            ^~~~~
-gcc -o 01_VARIABLES.exe "src\\01_VARIABLES.o" 
-
-19:12:44 Build Finished. 0 errors, 3 warnings. (took 670ms)
-
+Info: Nothing to build for 01_VARIABLES
