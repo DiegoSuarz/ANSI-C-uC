@@ -1,0 +1,7 @@
+21:10:45 **** Incremental Build of configuration Debug for project 09_FUNCIONES ****
+Info: Internal Builder is used for build
+gcc "-ID:\\CURSOS\\LENGUAJE C TALLER\\CODIGOS\\0_EJEMPLO\\09_FUNCIONES\\inc" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Funciones.o" "..\\src\\Funciones.c" 
+gcc -o 09_FUNCIONES.exe "src\\Funciones.o" "src\\main.o" 
+
+21:10:46 Build Finished. 0 errors, 0 warnings. (took 1s.85ms)
+

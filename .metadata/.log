@@ -709,3 +709,39 @@ org.eclipse.core.runtime.CoreException: attempt to set description for a project
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-03-17 21:49:19.429
 !MESSAGE Indexed '07_BUCLE_WHILE - DO_WHILE' (1 sources, 13 headers) in 0.2 sec: 912 declarations; 1,788 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!SESSION 2022-03-18 15:12:37.456 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_PE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-18 15:13:41.626
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-18 15:13:42.020
+!MESSAGE Log4j initialized with config file D:\CURSOS\LENGUAJE C TALLER\CODIGOS\0_EJEMPLO\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-18 15:14:04.278
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-03-28 17:29:10.081 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_PE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-28 17:30:33.715
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-28 17:30:34.050
+!MESSAGE Log4j initialized with config file D:\CURSOS\LENGUAJE C TALLER\CODIGOS\0_EJEMPLO\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-28 17:30:52.082
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-28 20:20:16.719
+!MESSAGE Indexed '09_FUNCIONES' (1 sources, 10 headers) in 0.675 sec: 875 declarations; 1,698 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-28 20:25:56.817
+!MESSAGE Indexed '09_FUNCIONES' (1 sources, 11 headers) in 0.19 sec: 875 declarations; 1,699 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)

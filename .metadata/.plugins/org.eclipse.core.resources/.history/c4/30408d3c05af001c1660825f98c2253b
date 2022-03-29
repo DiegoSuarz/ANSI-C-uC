@@ -1,0 +1,29 @@
+/*
+ * Funciones.c
+ *
+ *  Created on: 28 mar. 2022
+ *      Author: Diego
+ */
+
+#include "Funciones.h"
+
+int ingresoNumeroPositivo(void){
+	int n;
+	do{
+		printf("ingrese numero positivo(>0): ");
+		scanf("%d",&n);
+	}while(n <= 0 );
+	return n;
+}
+
+int suma(int n, int m){
+	int res;
+
+	if(n == 0)
+		return m;
+	if(m == 0)
+		return n;
+
+	res = n + m;
+	return res;
+}
