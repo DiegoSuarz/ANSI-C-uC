@@ -1,0 +1,49 @@
+/*
+ ============================================================================
+ Name        : 10_ARREGLOS.c
+ Author      : Diego Suarez
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+//ejercicio tema 6 ejercicio 3
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//definicion de variables simbolicas
+#define LEN1	5
+#define	LEN2	6
+#define	LEN3	(LEN1 + LEN2)
+
+/*<tipo> <nombre> <dimensiones>*/
+int array1[LEN1];
+int array2[LEN2];
+int array3[LEN3];
+
+//void InputArray(int *ptr);
+void InputArray(int ptr[], int indice);
+
+#define LENGTH(ARRAY)	(sizeof(ARRAY)/sizeof(*(ARRAY)))
+
+int n;
+//int num[n];
+int main(void) {
+
+	InputArray(array1, LENGTH(array1));
+
+	printf("LOS ELEMENTOS SON: \n");
+	for(int i=0;i<LENGTH(array1);i++){
+		printf("%d ",array1[i]);
+	}
+	system("pause");
+	return EXIT_SUCCESS;
+}
+
+void InputArray(int ptr[], int indice){
+	for (int i=0;i<indice;i++){
+		printf("elemento->[%d]: ",i);
+		scanf("%d",&ptr[i]);
+	}
+}

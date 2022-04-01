@@ -1,0 +1,48 @@
+/*
+ ============================================================================
+ Name        : 12_ESTRUCTURAS.c
+ Author      : Diego Suarez
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//
+typedef struct {
+	char nombre[20];
+	char apellidos[50];
+	int edad;
+	float altura;
+}persona;
+
+//declaracion de variables de estructura
+persona Diego;
+
+typedef persona *ptrPersona;
+ptrPersona Rob;
+
+/********************************************************/
+ptrPersona InfoPersona(void);
+int main(void) {
+
+	printf("Ingrese información del Usuario\n");
+	printf("Nombre: ");
+	scanf("%s",Diego.nombre);
+	printf("\nApellido: ");
+	scanf("%s",Diego.apellidos);
+	printf("\nAltura: ");
+	scanf("%f",Diego.altura);
+	printf("\nEdad: ");
+	scanf("%d",Diego.edad);
+
+	system("pause");
+	return EXIT_SUCCESS;
+}
+
+ptrPersona InfoPersona(void){
+
+}

@@ -1,0 +1,11 @@
+21:23:29 **** Incremental Build of configuration Debug for project 12_ESTRUCTURAS ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\12_ESTRUCTURAS.o" "..\\src\\12_ESTRUCTURAS.c" 
+..\src\12_ESTRUCTURAS.c: In function 'InfoPersona_ptr':
+..\src\12_ESTRUCTURAS.c:60:13: warning: 'xPersona' is used uninitialized in this function [-Wuninitialized]
+  scanf("%c",xPersona->nombre);
+             ^~~~~~~~
+gcc -o 12_ESTRUCTURAS.exe "src\\12_ESTRUCTURAS.o" 
+
+21:23:30 Build Finished. 0 errors, 1 warnings. (took 1s.172ms)
+
